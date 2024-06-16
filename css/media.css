@@ -1,0 +1,8 @@
+@media (min-width: 576px) and (max-width: 600px){
+    .container{
+        width: 530px
+    }
+    .site-header_title{
+        font-size: 14px;
+    }
+}
