@@ -11,7 +11,8 @@ ul{
     list-style: none;
 }
 .container{
-    width: 1280px;
+    max-width: 1280px;
+    width: 100%;
     margin: auto;
 }
 .site-header{

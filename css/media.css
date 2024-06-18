@@ -1,9 +1,122 @@
-@media (min-width: 1px) and (max-width: 700px){
+@media (max-width:1440px){
+
+}
+@media (max-width:1320px){
     .container{
-        width: 530px
+        width: 85%;
+    }
+    .main-cards_item{
+        width: calc(100%/8*1.59);
+    }
+    
+}
+@media (max-width:1290px){
+    
+}
+@media (min-width:1170px) and (max-width:1274px){
+    .container{
+        width: 85%;
+    }
+    .main-cards_item{
+        width: calc(100%/8*1.55);
+    }
+    
+}
+@media (max-width:1024px){
+    .container{
+        width: 85%;
+    }
+    .main-cards_item{
+        width: calc(100%/8*1.48);
+    }
+    .card-descrip{
+        font-size: 10px;
+    }
+    
+}
+@media (min-width:992px) and (max-width:1004px){
+    .container{
+        width: 85%;
+    }
+    .main-cards_item{
+        width: calc(100%/8*1.46);
+    }
+    .descrip-span{
+        font-size: 13px;
+    }
+}
+@media (min-width:850px) and (max-width:992px){
+    
+    .main-cards_item{
+        width: calc(100%/8*1.36);
+    }
+    .item-title{
+        font-size: 13px;
+        margin-top: 10px;
+        margin-bottom: 0px;
     }
     .site-header_title{
-        font-size: 14px;
-        color: red;
+        font-size: 15px;
     }
+    .descrip-span{
+        font-size: 10px;
+    }
+    .card_content{
+        margin-left: 12px;
+    }
+}
+@media (max-width:768px){
+    .main-search{
+        max-width: 700px;
+    }
+    .upper-main{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .container{
+        width: 93%;
+    }
+    .main-cards{
+        row-gap: 150px;
+    }
+    .main-cards_item{
+        width: calc(100%/8*6.5);
+        margin: auto;
+        height: 550px;
+    }
+    .item-title{
+        font-size: 38px;
+        margin-top: 35px;
+    }
+    .site-header_title{
+        font-size: 25px;
+    }
+    .card-descrip{
+        font-size: 25px;
+    }
+    .descrip-span{
+        font-size: 25px;
+    }
+    .card_content{
+        margin-left: 42px;
+        row-gap: 30px;
+    }
+    .switchmode-text{
+        font-size: 20px;
+    }
+}
+@media (max-width:736px){
+    
+}
+@media (max-width:680px){
+    
+}
+@media (max-width:576px){
+    
+}
+@media (max-width:480px){
+    
+}
+@media (max-width:320px){
+    
 }
