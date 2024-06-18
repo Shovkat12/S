@@ -66,10 +66,26 @@
     }
 }
 @media (max-width:768px){
+    
+    .main-selection{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .search-icon{
+        width: 25px;
+        height: 25px;
+    }
     .main-search{
         max-width: 700px;
+        height: 70px;
+
+    }
+    .search_btn{
+        font-size: 25px;
+        opacity: 0.5;
     }
     .upper-main{
+        row-gap: 40px;
         flex-direction: column;
         align-items: flex-start;
     }
@@ -109,14 +125,111 @@
     
 }
 @media (max-width:680px){
-    
+    .item-title{
+        font-size: 35px;
+        margin-top: 35px;
+    }
 }
 @media (max-width:576px){
-    
+    .item-title{
+        font-size: 30px;
+        margin-top: 35px;
+    }
+    .card-descrip{
+        font-size: 23px;
+    }
+    .descrip-span{
+        font-size: 23px;
+    }
 }
 @media (max-width:480px){
-    
+    .item-title{
+        font-size: 25px;
+        margin-top: 27px;
+    }
+    .card-descrip{
+        font-size: 20px;
+    }
+    .descrip-span{
+        font-size: 20px;
+    }
+    .card_content{
+        margin-left: 35px;
+        row-gap: 20px;
+    }
+    .main-cards{
+        row-gap: 70px;
+    }
+    .main-cards_item{
+        height: 420px;
+    }
+    .site-header_title{
+        font-size: 20px;
+    }
+    .switchmode-text{
+        font-size: 16px;
+    }
+    .container{
+        width: 90%;
+    }
+    .search_btn{
+        font-size: 17px;
+        opacity: 0.5;
+    }
+    .upper-main{
+        row-gap: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
+
 @media (max-width:320px){
-    
+    .item-title{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .container{
+        width: 85%;
+    }
+    .switchmode-text{
+        font-size: 10px;
+    }
+    .site-header_switchmode{
+        width: 100px;
+    }
+    .site-header_title{
+        font-size: 10px;
+    }
+    .search_btn{
+        font-size: 10px;
+        opacity: 0.5;
+    }
+    .svg-header{
+        width: 15px;
+        height: 15px;
+    }
+    .search-icon{
+        width: 16px;
+        height: 16px;
+    }
+    .main-selection{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .card-descrip{
+        font-size: 12px;
+    }
+    .descrip-span{
+        font-size: 12px;
+    }
+    .card_content{
+        margin-left: 23px;
+        row-gap: 5px;
+    }
+    .main-cards_item{
+        height: 300px;
+    }
+    .main-cards{
+        row-gap: 20px;
+    }
 }
